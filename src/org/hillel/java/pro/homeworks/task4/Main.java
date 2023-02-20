@@ -1,8 +1,4 @@
-package org.hillel.java.pro.homeworks;
-
-import org.hillel.java.pro.homeworks.task4.Animals;
-import org.hillel.java.pro.homeworks.task4.Cat;
-import org.hillel.java.pro.homeworks.task4.Dog;
+package org.hillel.java.pro.homeworks.task4;
 
 public class Main {
     public static void main(String[] args) {
