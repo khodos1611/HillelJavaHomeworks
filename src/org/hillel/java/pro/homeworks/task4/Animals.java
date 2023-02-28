@@ -14,9 +14,9 @@ public abstract class Animals {
 
     }
 
-    public abstract void Run(int distance);
+    public abstract void run(int distance);
 
-    public abstract void Swim(int distance);
+    public abstract void swim(int distance);
 
     public static int getCountEntities() {
         return countEntities;

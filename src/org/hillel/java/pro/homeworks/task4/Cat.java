@@ -10,14 +10,14 @@ public class Cat extends Animals{
     }
 
     @Override
-    public void Run(int distance) {
+    public void run(int distance) {
         if (distance > super.runLimit) System.out.println("Кіт не пробіжить  "+distance+" м., має ліміт "+super.runLimit);
         else System.out.println("Кіт пробіг "+distance+" м.");
 
     }
 
     @Override
-    public void Swim(int distance) {
+    public void swim(int distance) {
         System.out.println("Кіт не вміє плавати. ");
     }
 
