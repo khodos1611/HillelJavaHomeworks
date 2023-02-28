@@ -1,3 +1,5 @@
+package org.hillel.java.pro.homeworks.task3;
+
 import org.hillel.java.pro.homeworks.task3.car.Car;
 import org.hillel.java.pro.homeworks.task3.person.Person;
 
