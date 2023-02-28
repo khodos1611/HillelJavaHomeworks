@@ -1,5 +1,5 @@
-import org.hillel.java.pro.homeworks.lesson3.car.Car;
-import org.hillel.java.pro.homeworks.lesson3.person.Person;
+import org.hillel.java.pro.homeworks.task3.car.Car;
+import org.hillel.java.pro.homeworks.task3.person.Person;
 
 public class Main {
     public static void main(String[] args) {

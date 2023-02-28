@@ -7,7 +7,7 @@ public class Robot extends Participant {
         super.jumpLimit = jumpLimit;
     }
     @Override
-    public boolean Run(int length) {
+    public boolean run(int length) {
         if (length<=super.runLimit) {
             System.out.println("Robot overcome the Treadmill, run "+length);
             return true;
@@ -19,7 +19,7 @@ public class Robot extends Participant {
     }
 
     @Override
-    public boolean Jump(int height) {
+    public boolean jump(int height) {
         if (height<=super.jumpLimit){
             System.out.println("Robot overcome the Wall, jump "+ height);
             return true;

@@ -2,7 +2,7 @@ package org.hillel.java.pro.homeworks.task5.Part2.obstacles;
 
 import org.hillel.java.pro.homeworks.task5.Part2.participants.Participant;
 
-public class Treadmill extends Obstacle{
+public class Treadmill implements Obstacle{
 
     int length;
 
@@ -11,8 +11,7 @@ public class Treadmill extends Obstacle{
     }
 
     @Override
-    public boolean Overcome(Participant person) {
-        return person.Run(this.length);
+    public boolean Overcome(Participant person) {return person.run(this.length);
     }
 
     @Override

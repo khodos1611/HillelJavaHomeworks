@@ -8,7 +8,7 @@ public class Human extends Participant {
     }
 
     @Override
-    public boolean Run(int length) {
+    public boolean run(int length) {
 
         if (length<=super.runLimit){
             System.out.println("Human overcome the Treadmill, run "+length);
@@ -21,7 +21,7 @@ public class Human extends Participant {
     }
 
     @Override
-    public boolean Jump(int height) {
+    public boolean jump(int height) {
 
         if (height<=super.jumpLimit){
             System.out.println("Human overcome the Wall, jump "+ height);

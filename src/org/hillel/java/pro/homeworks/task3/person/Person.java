@@ -1,4 +1,4 @@
-package org.hillel.java.pro.homeworks.lesson3.person;
+package org.hillel.java.pro.homeworks.task3.person;
 
 public class Person {
 

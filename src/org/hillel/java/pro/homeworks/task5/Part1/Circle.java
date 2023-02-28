@@ -4,6 +4,8 @@ public class Circle implements Figure{
 
     int radius;
 
+    final double PI = 3.14;
+
     public Circle(int radius) {
         this.radius = radius;
     }
@@ -15,6 +17,6 @@ public class Circle implements Figure{
 
     @Override
     public double getArea() {
-        return Figure.PI * radius * radius;
+        return PI * radius * radius;
     }
 }

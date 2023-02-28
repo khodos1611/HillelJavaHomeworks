@@ -2,7 +2,7 @@ package org.hillel.java.pro.homeworks.task5.Part2.obstacles;
 
 import org.hillel.java.pro.homeworks.task5.Part2.participants.Participant;
 
-public class Wall extends Obstacle{
+public class Wall implements Obstacle{
 
     int height;
 
@@ -12,7 +12,7 @@ public class Wall extends Obstacle{
 
     @Override
     public boolean Overcome(Participant person) {
-        return  person.Jump(this.height);
+        return  person.jump(this.height);
     }
 
     @Override

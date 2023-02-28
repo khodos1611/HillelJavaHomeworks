@@ -5,14 +5,8 @@ public abstract class Participant {
     int runLimit;
     int jumpLimit;
 
-    public boolean Run(int length){
-        System.out.println("Run");
-        return true;
-    }
+    public  abstract boolean run(int length);
 
-    public boolean Jump(int height){
-        System.out.println("Jump");
-        return true;
-    }
+    public abstract boolean jump(int height);
 
  }
